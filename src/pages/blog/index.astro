@@ -11,9 +11,13 @@ const posts = (await getCollection("blog")).sort(
 <Layout>
   <section>
     {
-      posts.map((post) => {
+      posts.map((post, index) => {
         return (
-          <article class="article-md border-b-2 border-tertiary">
+          <article
+            class={`article-md ${
+              index === posts.length - 1 ? "" : "border-b-2 border-tertiary"
+            }`}
+          >
             <FormattedDate date={post.data.pubDate} />
             <picture class="grid grid-cols-3 gap-x-6 content-center items-center grid-flow-row">
               <figcaption class="col-span-3 md:col-span-2">
