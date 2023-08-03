@@ -3,6 +3,8 @@ title: "Guía 1 - Cinemática: velocidad, aceleración, MRU, MRUV"
 description: "El análisis dimensional nos permite verificar la consistencia de las ecuaciones que describen el movimiento de un objeto. También nos permite identificar las unidades de medida de las variables que intervienen en las ecuaciones y expresar las soluciones en unidades apropiadas. Por ejemplo, si tenemos una ecuación que describe la velocidad de un objeto en términos de su posición y tiempo, el análisis dimensional nos permitiría verificar que la ecuación tiene unidades de longitud dividido por tiempo, lo que corresponde a unidades de velocidad."
 pubDate: "Jun 27 2023"
 heroImage: "https://www.notion.so/images/page-cover/rijksmuseum_avercamp_1620.jpg"
+notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-1.pdf"
+vclass: "https://youtu.be/_MasMxJ7GeI?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF"
 ---
 
 <!-- Class: http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-1.pdf, https://youtu.be/_MasMxJ7GeI?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF

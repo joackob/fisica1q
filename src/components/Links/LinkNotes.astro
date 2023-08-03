@@ -1,0 +1,18 @@
+---
+import { SITE_BASE } from "../../consts";
+export interface Props {
+  href: string;
+}
+
+const { href } = Astro.props;
+---
+
+<a href={href} class="mr-2">
+  <img
+    src={`${SITE_BASE}/link-svgrepo-com.svg`}
+    alt="link-logo"
+    width="16px"
+    height="16px"
+    class="inline-block text-gray-500"
+  />
+</a>
