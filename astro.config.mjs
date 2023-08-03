@@ -7,7 +7,7 @@ import rehypeKatex from "rehype-katex";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://joackob.github.io/fisica1q",
+  site: "https://joackob.github.io",
   base: "/fisica1q",
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
