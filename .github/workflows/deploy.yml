@@ -30,7 +30,7 @@ jobs:
       - name: Build your site
         run: npm run build
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v1
         with:
           path: ./dist
       # - name: Install, build, and upload your site
