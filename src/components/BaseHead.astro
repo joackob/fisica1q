@@ -1,6 +1,9 @@
 ---
 // Import the global.css file here so that it is included on
 import "../styles/global.css";
+
+// Import base url
+import { SITE_BASE } from "../consts";
 // all pages through the use of the <BaseHead /> component.
 
 export interface Props {
@@ -17,8 +20,12 @@ const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" type="image/svg+xml" href={`${SITE_BASE}/favicon.svg`} />
+<link
+  rel="shortcut icon"
+  href={`${SITE_BASE}/favicon.ico`}
+  type="image/x-icon"
+/>
 <meta name="generator" content={Astro.generator} />
 
 <!-- Canonical URL -->
