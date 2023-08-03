@@ -21,12 +21,18 @@ const posts = (await getCollection("blog")).sort(
               index !== posts.length - 1 && "border-b-2 border-tertiary"
             }`}
           >
-            <FormattedDate date={post.data.pubDate} />
             <picture class="grid grid-cols-3 gap-x-6 content-center items-center grid-flow-row">
               <figcaption class="col-span-3 md:col-span-2">
                 <a href={`${SITE_BASE}/blog/${post.slug}`}>
                   <h1>{post.data.title}</h1>
                 </a>
+                <div class="flex items-center justify-between">
+                  <FormattedDate date={post.data.pubDate} />
+                  <div>
+                    <LinkNotes href={post.data.notes} />
+                    <LinkYoutube href={post.data.vclass} />
+                  </div>
+                </div>
               </figcaption>
               <img
                 src={post.data.heroImage}
@@ -35,10 +41,6 @@ const posts = (await getCollection("blog")).sort(
               />
             </picture>
             <p>{post.data.description}</p>
-            <div>
-              <LinkNotes href={post.data.notes} />
-              <LinkYoutube href={post.data.vclass} />
-            </div>
           </article>
         );
       })

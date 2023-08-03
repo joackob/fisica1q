@@ -2,17 +2,26 @@
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 import Layout from "./Page.astro";
+import LinkNotes from "../components/Links/LinkNotes.astro";
+import LinkYoutube from "../components/Links/LinkYoutube.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, notes, vclass } =
+  Astro.props;
 ---
 
 <Layout title={title} description={description}>
-	<article class="article-md">
-		<h1 class="text-3xl font-bold my-4">{title}</h1>
-		<FormattedDate date={pubDate} />
-		<img src={heroImage} alt="hero image" class="w-full my-4" />
-		<slot />
-	</article>
+  <article class="article-md">
+    <h1 class="text-3xl font-bold">{title}</h1>
+    <div class="flex items-center justify-between">
+      <FormattedDate date={pubDate} />
+      <div>
+        <LinkNotes href={notes} />
+        <LinkYoutube href={vclass} />
+      </div>
+    </div>
+    <img src={heroImage} alt="hero image" class="w-full my-4" />
+    <slot />
+  </article>
 </Layout>
