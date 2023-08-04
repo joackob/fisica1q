@@ -29,7 +29,7 @@ Un sistema de referencia es un conjunto de coordenadas que se utiliza para descr
 
 La trayectoria de un objeto es el camino que sigue a lo largo del tiempo. Se puede describir en términos de distancia y dirección en un sistema de coordenadas. En la cinemática, se utiliza la trayectoria para calcular la velocidad y la aceleración del objeto.
 
-![En este grafico, describimos la trayectoria de un objeto en un sistema de coordenadas bidimensional.](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled.png)
+![En este grafico, describimos la trayectoria de un objeto en un sistema de coordenadas bidimensional.](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled.png)
 
 En este grafico, describimos la trayectoria de un objeto en un sistema de coordenadas bidimensional.
 
@@ -37,7 +37,7 @@ En este grafico, describimos la trayectoria de un objeto en un sistema de coorde
 
 El grafico de posición en función del tiempo es una herramienta muy útil para visualizar la trayectoria de un objeto. En este tipo de gráfico, la posición del objeto se representa en el eje vertical y el tiempo en el eje horizontal. Al trazar la posición del objeto en diferentes momentos, se puede ver cómo cambia su posición en el tiempo y determinar su velocidad y aceleración.
 
-![Para función que describe la trayectoria de un cuerpo en función del tiempo suele tener la notación $x(t)$.](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%201.png)
+![Para función que describe la trayectoria de un cuerpo en función del tiempo suele tener la notación $x(t)$.](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%201.png)
 
 Para función que describe la trayectoria de un cuerpo en función del tiempo suele tener la notación $x(t)$.
 
@@ -51,7 +51,7 @@ Si el movimiento es unidimensional, con un grafico como el que acabamos de descr
 
 El movimiento unidimensional se refiere a aquel en el que un objeto se mueve en una sola dirección, es decir, a lo largo de una sola dimensión.
 
-![Un sistema de referencia para un movimiento unidimensional puede ser una recta.](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%202.png)
+![Un sistema de referencia para un movimiento unidimensional puede ser una recta.](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%202.png)
 
 Un sistema de referencia para un movimiento unidimensional puede ser una recta.
 
@@ -61,7 +61,7 @@ Un simplificación que realizaremos para el estudio de la cinemática en una dim
 
 El desplazamiento es una magnitud vectorial que representa la distancia y la dirección entre el punto de partida y el punto final de un objeto en movimiento. Se puede calcular restando la posición final del objeto de su posición inicial. El desplazamiento se expresa en metros (m) en el Sistema Internacional de Unidades (SI), y su dirección se indica con un vector unitario. El sentido del desplazamiento se puede determinar mediante la comparación de la posición inicial y final del objeto.
 
-![Untitled](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%203.png)
+![Untitled](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%203.png)
 
 La diferencia entre magnitudes vectoriales y escalares radica en la información que brindan. Las magnitudes escalares solo indican una cantidad numérica, mientras que las magnitudes vectoriales también incluyen información sobre la dirección y el sentido del vector. Por ejemplo, la masa es una magnitud escalar, mientras que la velocidad es una magnitud vectorial ya que incluye información sobre la dirección y el sentido en que se mueve el objeto.
 
@@ -75,7 +75,7 @@ $$
 
 Para conocer este concepto y conectarlo con la sección anterior veamos un ejemplo.
 
-![Untitled](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%204.png)
+![Untitled](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%204.png)
 
 Dado un cuerpo puntual en movimiento, se determina su posición para cuatro instantes distintos de tiempo. Se desconoce totalmente la posición del objeto en instantes intermedios de tiempo. A pesar de estas limitaciones, podemos extraer información haciendo uso del concepto de velocidad media.
 
@@ -118,7 +118,7 @@ Esto nos muestra lo limitado que es la $v_{media}$, pero es un excelente punta p
 
 La velocidad instantánea es la velocidad de un objeto en un momento particular del tiempo. Se puede calcular encontrando la derivada de la posición del objeto en función del tiempo. En otras palabras, la velocidad instantánea es la tangente a la curva de posición en un punto específico. La velocidad instantánea se expresa en metros por segundo (m/s) en el Sistema Internacional de Unidades (SI).
 
-![Untitled](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%205.png)
+![Untitled](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%205.png)
 
 Dado $x(t)$ podemos definir a la velocidad media como:
 
@@ -143,7 +143,7 @@ $$
 
 No perder de vista que la velocidad es un vector.
 
-![Untitled](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%206.png)
+![Untitled](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%206.png)
 
 ## Aceleración
 
@@ -170,15 +170,15 @@ $$
 
 Si la posición del objeto es constante para todo instante de tiempo, quiere decir que se encuentra inmóvil, y por tanto su velocidad es nula, al igual que su aceleración.
 
-![Untitled](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%207.png)
+![Untitled](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%207.png)
 
 Por otro lado, si la velocidad del objeto es constante y positiva, entonces, su aceleración es nula y su posición varia de forma constante.
 
-![Untitled](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%208.png)
+![Untitled](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%208.png)
 
 Por último, si la aceleración es constante y positiva, entonces, la velocidad del objeto va a crecer de forma lineal y su posición varia de acuerdo a una función cuadrática.
 
-![Untitled](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%209.png)
+![Untitled](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%209.png)
 
 ## Ecuaciones de movimiento
 
@@ -202,7 +202,7 @@ $$
 
 Observar que se trata de una recta y que es coherente con las graficas antes vistas
 
-![Untitled](/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%209.png)
+![Untitled](/fisica1q/Gui%CC%81a%201%20-%20Cinema%CC%81tica%20velocidad,%20aceleracio%CC%81n,%20MRU%20259e4365ace746c7922572fd8bca9d71/Untitled%209.png)
 
 Dado que la velocidad no es constante, no podemos forzar la ecuación de posición en función del tiempo de la misma forma que lo hicimos con la velocidad. Pero como la velocidad $\vec v(t)$ es una recta, siempre vale que la velocidad media es el promedio aritmético entre $\vec v(t)$ y la velocidad inicial $\vec v(t_0) = \vec v_0$. Es decir que, en este caso en particular, la velocidad media es
 
