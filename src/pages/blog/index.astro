@@ -26,19 +26,19 @@ const posts = (await getCollection("blog")).sort(
                 <a href={`${SITE_BASE}/blog/${post.slug}`}>
                   <h1>{post.data.title}</h1>
                 </a>
-                <div class="flex items-center justify-between">
-                  <FormattedDate date={post.data.pubDate} />
-                  <div>
-                    <LinkNotes href={post.data.notes} />
-                    <LinkYoutube href={post.data.vclass} />
-                  </div>
-                </div>
               </figcaption>
               <img
                 src={post.data.heroImage}
                 class="col-span-3 md:col-span-1 "
                 alt="hero image"
               />
+              <div class="col-span-3 flex items-center justify-between">
+                <FormattedDate date={post.data.pubDate} />
+                <div>
+                  <LinkNotes href={post.data.notes} />
+                  <LinkYoutube href={post.data.vclass} />
+                </div>
+              </div>
             </picture>
             <p>{post.data.description}</p>
           </article>
