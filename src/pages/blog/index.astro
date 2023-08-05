@@ -19,28 +19,23 @@ const posts = (await getCollection("blog")).sort(
           <article
             class={`article-md ${
               index !== posts.length - 1 && "border-b-2 border-tertiary"
-            }`}
+            } grid grid-cols-3 gap-x-6 items-start grid-flow-row`}
           >
-            <picture class="grid grid-cols-3 gap-x-6 content-center items-center grid-flow-row">
-              <div class="col-span-3 flex items-center justify-between">
-                <FormattedDate date={post.data.pubDate} />
-                <div class="flex space-x-3">
-                  <LinkNotes href={post.data.notes} />
-                  <LinkYoutube href={post.data.vclass} />
-                </div>
+            <div class="col-span-3 flex items-center justify-between">
+              <FormattedDate date={post.data.pubDate} />
+              <div class="flex space-x-3">
+                <LinkNotes href={post.data.notes} />
+                <LinkYoutube href={post.data.vclass} />
               </div>
-              <figcaption class="col-span-3 md:col-span-2">
-                <a href={`${SITE_BASE}/blog/${post.slug}`}>
-                  <h1>{post.data.title}</h1>
-                </a>
-              </figcaption>
-              <img
-                src={post.data.heroImage}
-                class="col-span-3 md:col-span-1 "
-                alt="hero image"
-              />
+            </div>
+            <div class="col-span-3 md:col-span-2">
+              <a href={`${SITE_BASE}/blog/${post.slug}`}>
+                <h1>{post.data.title}</h1>
+              </a>
+            </div>
+            <picture class="col-span-3 md:col-span-1">
+              <img src={post.data.heroImage} alt="hero image" />
             </picture>
-            <p class="overflow-hidden truncate">{post.data.description}</p>
           </article>
         );
       })
