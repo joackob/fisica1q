@@ -18,7 +18,7 @@ const { title, description, pubDate, updatedDate, heroImage, notes, vclass } =
     <img src={heroImage} alt="hero image" class="w-full my-4" />
     <div class="flex items-center justify-between">
       <FormattedDate date={pubDate} />
-      <div>
+      <div class="flex space-x-3">
         <LinkNotes href={notes} />
         <LinkYoutube href={vclass} />
       </div>

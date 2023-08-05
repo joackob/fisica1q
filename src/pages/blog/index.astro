@@ -24,7 +24,7 @@ const posts = (await getCollection("blog")).sort(
             <picture class="grid grid-cols-3 gap-x-6 content-center items-center grid-flow-row">
               <div class="col-span-3 flex items-center justify-between">
                 <FormattedDate date={post.data.pubDate} />
-                <div>
+                <div class="flex space-x-3">
                   <LinkNotes href={post.data.notes} />
                   <LinkYoutube href={post.data.vclass} />
                 </div>
@@ -40,7 +40,7 @@ const posts = (await getCollection("blog")).sort(
                 alt="hero image"
               />
             </picture>
-            <p>{post.data.description}</p>
+            <p class="overflow-hidden truncate">{post.data.description}</p>
           </article>
         );
       })

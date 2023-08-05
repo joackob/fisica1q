@@ -110,6 +110,7 @@ Si calculamos la velocidad media para el lapso entre uno y diez segundos, el res
 Esto nos muestra lo limitado que es la $v_{media}$, pero es un excelente punta pie para una definición más general de lo que es la velocidad.
 
 <aside>
+
 💡 Decimos que la **rapidez** de un objeto es igual al modulo del vector velocidad.
 
 </aside>

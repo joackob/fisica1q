@@ -15,8 +15,6 @@ Un vector en dos dimensiones posee dos componentes: una componente horizontal y 
 
 $$
 A^2 = A_x^2 + A_y^2
-
-
 $$
 
 Donde $A = |\vec A|$, y $\vec A$ forma un ángulo $\theta$ con relación al eje $x$. Dicho esto, las siguientes funciones trigonométricas se cumplen
