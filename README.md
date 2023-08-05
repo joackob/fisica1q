@@ -27,7 +27,7 @@ Este proyecto fue construido basado en [Astro](https://astro.build/) por lo que 
 
 En la carpeta `src/components` se encuentran los componentes generales para la construcción del sitio, nada especial. 
 
-En la carpeta `src/content/blog` se encuentran los archivos `.md` de cada uno de los artículos que se muestran en el sitio. Notar que en la carpeta `public` existe una carpeta por cada archivo `.md` que contiene una serie de imágenes que claramente están relacionados con el articulo en cuestión. Importante a tener esto en cuenta si no se quiere romper el proyecto en producción. No colocar las imágenes en cualquier sitio o de cualquier forma, los nombres tanto del articulo `.md` como de la carpeta de imágenes deben tener el mismo nombre. 
+En la carpeta `src/content/blog` se encuentran los archivos `.md` de cada uno de los artículos que se muestran en el sitio. Notar que en la carpeta `public` existe una carpeta por cada archivo `.md` que contiene una serie de imágenes que claramente están relacionados con el articulo en cuestión. Esto es así por cuestiones técnicas y de organización.
 
 ## 🧞 Comandos
 
@@ -42,11 +42,21 @@ Todos los comandos deben ejecutarse desde la carpeta raíz del proyecto
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
+## 😀 Características:
+
+- ✅ Si bien se pueden implementar estilos propios para cada articulo, el proyecto ya cuenta con `tailwind.css` . Aprovecharlo
+- ✅ 100/100 Lighthouse performance
+- ✅ SEO-friendly with canonical URLs and OpenGraph data
+- ✅ Soporte para Sitemap
+- ✅ Soporte para RSS Feed
+- ✅ Soporte para Markdown & MDX.
+- ✅ Soporte para expresiones matemáticas escritas en Latex
+
 ## 👀 Lista de tareas para publicar un nuevo articulo
 
 - Colocar el articulo con extensión `.md` en la carpeta `src/content/blog`. 
 - Crear o colocar la carpeta de imágenes relacionadas con el articulo en la carpeta `public/` . Tanto la carpeta como el documento `.md` deben tener el mismo nombre.
-- Como el sitio se despliega en GitHub Pages, lo que obliga a que tenga la dirección `https://joackob.github.io/fisica1q/` con `fisica1q/` como base, las direcciones de las imágenes dentro del articulo `.md` deben estar ruteadas de tal forma con la dirección `/fisica1q/` sea su base. Mirar otros artículos de ejemplo para despejar dudas.
+- Las imágenes que se muestren en cada articulo, deben tener como `path` el siguiente formato: `/fisica1q/<NombreDelArticulo>/<NombreDeLaImagen>`.
 - Cada articulo debe tener un encabezado en donde figuren los siguientes datos
   - `title` : Titulo del articulo.
   - `description`: Descripción del articulo.
