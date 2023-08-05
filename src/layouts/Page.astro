@@ -4,7 +4,7 @@ import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import Profile from "../components/HeroProfile.astro";
 import Nav from "../components/Nav.astro";
-import { SITE_TITLE, SITE_DESCRIPTION, SITE_BASE } from "../consts";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 
 export interface Props {
   title?: string;
@@ -32,18 +32,6 @@ const { title = SITE_TITLE, description = SITE_DESCRIPTION }: Props =
       src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"
       integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx"
       crossorigin="anonymous"></script>
-    <!-- own script for add relative path to img -->
-    <!-- <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const imgs = document.querySelectorAll("img");
-        imgs.forEach((img) => {
-          const src = img.getAttribute("src");
-          if (src && !src.startsWith("http")) {
-            img.setAttribute("src", `${location.origin}${src}`);
-          }
-        });
-      });
-    </script> -->
   </head>
   <body class="bg-primary text-secondary font-sans mx-4">
     <main class="max-w-xl mx-auto">
