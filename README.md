@@ -1,30 +1,14 @@
-# Astro Starter Kit: Blog
+# Summary Fisica 1Q
 
-```
-npm create astro@latest -- --template blog
-```
+Este es sitio fue elaborado a partir de las notas tomadas en el curso de Física 1Q del departamento de Física de la Facultad de Ciencias Exactas y Naturales de la Universidad de Buenos Aires durante el primer cuatrimestre del año 2023.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/blog)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/blog)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
+El material de lectura de este espacio no pretende reemplazar a las fuentes principales que inspiraron su construcción y que se encuentran anexadas en cada uno de los artículos. Se ínsita al lector a complementar estos resúmenes con la bibliografía recomendada en el sitio principal de la materia, guías de ejercicios y apuntes personales.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Vale la pena aclarar que esta página no tiene relación alguna con la Universidad de Buenos Aires. No se trata de un sitio oficial y queda bajo criterio del lector adoptar o no, las definiciones o conceptos aquí mencionados.
 
+## 🚀 Estructura del proyecto
 
-![blog](https://user-images.githubusercontent.com/4677417/186189140-4ef17aac-c3c9-4918-a8c2-ce86ba1bb394.png)
-
-Features:
-
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
+Dentro del repositorio vas a poder ver los siguientes archivos y carpetas
 
 ```
 ├── public/
@@ -39,17 +23,15 @@ Inside of your Astro project, you'll see the following folders and files:
 └── tsconfig.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Este proyecto fue construido basado en [Astro](https://astro.build/) por lo que archivos con extensión `.astro` y `.md` que se encuentren dentro de la carpeta `src/pages/` serán expuestos como rutas basadas en el nombre del archivo.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+En la carpeta `src/components` se encuentran los componentes generales para la construcción del sitio, nada especial. 
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+En la carpeta `src/content/blog` se encuentran los archivos `.md` de cada uno de los artículos que se muestran en el sitio. Notar que en la carpeta `public` existe una carpeta por cada archivo `.md` que contiene una serie de imágenes que claramente están relacionados con el articulo en cuestión. Importante a tener esto en cuenta si no se quiere romper el proyecto en producción. No colocar las imágenes en cualquier sitio o de cualquier forma, los nombres tanto del articulo `.md` como de la carpeta de imágenes deben tener el mismo nombre. 
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🧞 Comandos
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
+Todos los comandos deben ejecutarse desde la carpeta raíz del proyecto
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
@@ -60,10 +42,15 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 👀 Lista de tareas para publicar un nuevo articulo
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+- Colocar el articulo con extensión `.md` en la carpeta `src/content/blog`. 
+- Crear o colocar la carpeta de imágenes relacionadas con el articulo en la carpeta `public/` . Tanto la carpeta como el documento `.md` deben tener el mismo nombre.
+- Como el sitio se despliega en GitHub Pages, lo que obliga a que tenga la dirección `https://joackob.github.io/fisica1q/` con `fisica1q/` como base, las direcciones de las imágenes dentro del articulo `.md` deben estar ruteadas de tal forma con la dirección `/fisica1q/` sea su base. Mirar otros artículos de ejemplo para despejar dudas.
+- Cada articulo debe tener un encabezado en donde figuren los siguientes datos
+  - `title` : Titulo del articulo.
+  - `description`: Descripción del articulo.
+  - `pubDate`: Fecha de publicación.
+  - `heroImage`: Dirección de una imagen representativa del articulo en cuestión.
+  - `notes`: Dirección de la fuente del articulo. En general, son las notas de clase.
+  - `vclass`: Dirección a la clase virtual. En general, son las clases subidas por la catedra. 
