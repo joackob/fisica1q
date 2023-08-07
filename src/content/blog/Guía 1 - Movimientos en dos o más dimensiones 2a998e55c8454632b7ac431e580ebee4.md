@@ -1,6 +1,6 @@
 ---
 title: "Guía 1 - Movimientos en dos o más dimensiones"
-description: "El análisis dimensional nos permite verificar la consistencia de las ecuaciones que describen el movimiento de un objeto. También nos permite identificar las unidades de medida de las variables que intervienen en las ecuaciones y expresar las soluciones en unidades apropiadas. Por ejemplo, si tenemos una ecuación que describe la velocidad de un objeto en términos de su posición y tiempo, el análisis dimensional nos permitiría verificar que la ecuación tiene unidades de longitud dividido por tiempo, lo que corresponde a unidades de velocidad."
+description: "Un vector en dos dimensiones posee dos componentes: una componente horizontal y una componente vertical. La componente horizontal se denota como Ax y la componente vertical se denota como Ay. Estas dos componentes se pueden combinar para formar el vector original mediante el teorema de Pitágoras:"
 pubDate: "Marzo 29 2023"
 heroImage: "https://www.notion.so/images/page-cover/rijksmuseum_rembrandt_1642.jpg"
 notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-2.pdf"
