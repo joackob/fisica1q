@@ -3,10 +3,8 @@ title: "Guía 1 - Movimiento circular, coordenadas polares, Movimiento relativo 
 description: "Una forma alternativa de describir vectores es utilizando **coordenadas polares**. En este sistema, un vector r se describe mediante su magnitud r = |r| y su ángulo theta respecto a un eje de referencia que en general es el eje x."
 pubDate: "April 4 2023"
 heroImage: "https://www.notion.so/images/page-cover/rijksmuseum_jansz_1641.jpg"
-notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-2.pdf
-"
-vclass: "https://youtu.be/vqIBKcEd8wQ?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF
-"
+notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-2.pdf"
+vclass: "https://youtu.be/vqIBKcEd8wQ?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF"
 ---
 
 # Movimientos curvilíneos
