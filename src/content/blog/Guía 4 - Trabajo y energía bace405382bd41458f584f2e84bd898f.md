@@ -3,8 +3,8 @@ title: "Guía 4 - Trabajo y energía"
 description: "De forma muy coloquial, podemos definir al **trabajo** como la **cantidad de energía necesaria para mover un objeto a través de una distancia dada mediante una fuerza sostenida**. El trabajo se mide en Joules (J) y en general, se lo denota con la letra $W$ o $L$."
 pubDate: "May 8 2023"
 heroImage: "https://www.notion.so/images/page-cover/woodcuts_15.jpg"
-notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-7.pdf,"
-vclass: "https://youtu.be/BRzqYmAnL_k?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF,"
+notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-7.pdf"
+vclass: "https://youtu.be/BRzqYmAnL_k?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF"
 ---
 
 # Trabajo

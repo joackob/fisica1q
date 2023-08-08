@@ -9,6 +9,6 @@ const { date } = Astro.props;
 <div class="text-gray-500">
   Publicado el
   <time datetime={date.toISOString()}>
-    {date.toLocaleDateString("en-GB")}
+    {date.toLocaleDateString()}
   </time>
 </div>

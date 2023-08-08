@@ -3,7 +3,7 @@ title: "Guía 5 - Impulso Lineal"
 description: "En física, la cantidad de movimiento se define como la multiplicación de la masa de un objeto por su velocidad, ósea p = mv. Para dejar clara su definición valdría la pena relacionar la cantidad de movimiento con la segunda ley de Newton."
 pubDate: "May 28 2023"
 heroImage: "https://www.notion.so/images/page-cover/nasa_eagle_in_lunar_orbit.jpg"
-notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-9.pdf,"
+notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-9.pdf"
 vclass: "https://youtu.be/RuTzEysgEb0?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF"
 ---
 
