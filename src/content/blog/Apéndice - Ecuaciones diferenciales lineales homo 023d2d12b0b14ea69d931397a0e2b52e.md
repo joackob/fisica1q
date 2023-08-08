@@ -1,7 +1,7 @@
 ---
 title: "Apéndice - Ecuaciones diferenciales lineales homogéneas de segundo orden con coeficientes constantes"
 description: "Apéndice - Ecuaciones diferenciales lineales homogéneas de segundo orden con coeficientes constantes"
-pubDate: "April 26 2023"
+pubDate: "April 25 2023"
 heroImage: "https://www.notion.so/images/page-cover/woodcuts_9.jpg"
 notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-6.pdf"
 vclass: "https://youtu.be/pggkjCHyBHI?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF"
