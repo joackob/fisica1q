@@ -21,7 +21,7 @@ const posts = (await getCollection("blog")).sort(
               index !== posts.length - 1 && "border-b-2 border-tertiary"
             } grid grid-cols-3 gap-x-6 items-start grid-flow-row`}
           >
-            <div class="col-span-3 flex items-center justify-between">
+            <div class="col-span-3 flex items-center justify-between my-4">
               <FormattedDate date={post.data.pubDate} />
               <div class="flex space-x-3">
                 <LinkNotes href={post.data.notes} />
