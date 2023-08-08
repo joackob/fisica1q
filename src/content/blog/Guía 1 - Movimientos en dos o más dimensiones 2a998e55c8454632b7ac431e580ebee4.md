@@ -74,6 +74,7 @@ Si arrojamos un objeto con una velocidad inicial $\vec v_i$ que no represente un
 Las ecuaciones para este tipo de movimiento son similares a las ecuaciones dadas para movimientos unidimensionales, solo que precisa de la descomposición de los vectores.
 
 <aside>
+
 💡 En las ecuaciones siguientes usamos $t$ y no $(t-t_0)$, donde podemos suponer que $t_0=0$.
 
 </aside>
@@ -125,6 +126,7 @@ $$
 El tiro oblicuo es la composición de dos movimientos, uno en MRU con relación a las componentes en $x$ y otro en MRUA con relación a las componentes en $y$.
 
 <aside>
+
 💡 Cuando afirmamos que $g=-9,8 \frac{m}{s^2}$, es porque suponemos un sistema de referencia con el eje $y$ apuntando hacia arriba. Si el eje apuntase hacia abajo, claramente la gravedad cobraría una magnitud positiva.
 
 </aside>

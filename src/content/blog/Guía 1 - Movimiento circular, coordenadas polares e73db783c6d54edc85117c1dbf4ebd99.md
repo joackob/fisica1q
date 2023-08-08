@@ -1,5 +1,5 @@
 ---
-title: "Guía 1 - Movimiento circular, coordenadas polares, Movimiento relativo "
+title: "Guía 1 - Movimiento circular, coordenadas polares, Movimiento relativo"
 description: "Una forma alternativa de describir vectores es utilizando **coordenadas polares**. En este sistema, un vector r se describe mediante su magnitud r = |r| y su ángulo theta respecto a un eje de referencia que en general es el eje x."
 pubDate: "April 4 2023"
 heroImage: "https://www.notion.so/images/page-cover/rijksmuseum_jansz_1641.jpg"
@@ -46,6 +46,7 @@ $$
 $$
 
 <aside>
+
 🚨 Para simplificar, muchas veces se suele obviar $(t)$ y decir $\hat r = \cos \theta \hat i + \sin \theta \hat j$, dado que ya se estableció que $\theta$ varia en función del tiempo. Vamos a usar esta notación de ahora en más, pero nunca olvidar que $\theta$ es en realidad $\theta (t)$ y de hecho $\hat \theta (t) = -\sin\theta(t) \hat i + \cos \theta(t) \hat j$.
 
 </aside>
