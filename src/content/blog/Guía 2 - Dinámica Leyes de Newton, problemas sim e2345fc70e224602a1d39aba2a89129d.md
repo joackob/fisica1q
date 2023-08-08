@@ -2,7 +2,7 @@
 title: "Guía 2 - Dinámica: Leyes de Newton, problemas simples. Fuerzas de vinculo"
 description: "La dinámica es la parte de la física que se encarga del estudio de las **causas que producen el movimiento de los cuerpos** y de las leyes que lo rigen, especialmente las leyes de Newton. Por eso, comenzaremos a trabajar con **interacciones**, lo que nos motiva a definir la principal magnitud de la dinámica; La **fuerza**."
 pubDate: "April 8 2023"
-heroImage: "https://www.notion.so/images/page-cover/rijksmuseum_jansz_1641.jpg"
+heroImage: "https://www.notion.so/images/page-cover/webb4.jpg"
 notes: "http://materias.df.uba.ar/f1qa2020v/files/2020/02/Mec%C3%A1nica-3.pdf"
 vclass: "https://youtu.be/vqIBKcEd8wQ?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF"
 ---
