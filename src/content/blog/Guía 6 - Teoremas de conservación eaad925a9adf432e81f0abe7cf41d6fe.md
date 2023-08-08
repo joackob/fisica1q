@@ -1,6 +1,6 @@
 ---
 title: "Guía 6 - Teoremas de conservación"
-description: "En física, la cantidad de movimiento se define como la multiplicación de la masa de un objeto por su velocidad, ósea p = mv. Para dejar clara su definición valdría la pena relacionar la cantidad de movimiento con la segunda ley de Newton."
+description: "Dado un sistema de $n$ partículas, tal que cada una de ellas puede o no estar sometida tanto a fuerzas externas como internas, notaremos con símbolo F_i{ext} a la resultante de las fuerzas externas que se aplican sobre la partícula $i$, mientras que f_{ij} es el símbolo que adjudicaremos a la fuerza interna que actúa sobre la partícula $i$, pero que es ejercida por la partícula $j$. Aquí debemos hacer una breve aclaración, si se llega a considerar a la partícula $j$ como una entidad no perteneciente al sistema analizado, entonces la fuerza f_{ij}, pasa a ser una fuerza externa."
 pubDate: "June 17 2023"
 heroImage: "https://www.notion.so/images/page-cover/met_vincent_van_gogh_oleanders.jpg"
 notes: ""
@@ -14,7 +14,7 @@ Dado un sistema de $n$ partículas, tal que cada una de ellas puede o no estar s
 Definimos también a la posición del centro de masa como
 
 $$
-⁍
+\vec R_{cm} = \frac{\sum\limits_{i=1}^n m_i\vec r_i}{M}
 $$
 
 Donde $M$ es la masa total del sistema o $M=\sum\limits_{i=1}^n m_i$. De igual forma, definimos la velocidad del centro de masa como
