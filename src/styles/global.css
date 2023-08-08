@@ -6,6 +6,13 @@
 body {
   font-family: Verdana, sans-serif;
 }
+/* for summary articles styles  */
+article.summary-article-md h1 {
+  font-weight: bold;
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  margin-bottom: 0.5rem;
+}
 
 /* for markdown styles */
 article.article-md h1,
@@ -18,7 +25,8 @@ article.article-md h6 {
   margin: 1rem 0 0.5rem 0;
 }
 
-article.article-md {
+article.article-md,
+article.summary-article-md {
   padding-bottom: 1rem;
 }
 

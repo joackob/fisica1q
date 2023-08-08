@@ -38,7 +38,7 @@ $$
 $$
 
 $$
-⁍.
+\hat \theta (t) = -\sin\theta(t) \hat i + \cos \theta(t) \hat j.
 $$
 
 En el caso en que el movimiento descripto por el cuerpo es **circular** de radio $R$, entonces

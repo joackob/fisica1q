@@ -13,8 +13,8 @@ const { title, description, pubDate, updatedDate, heroImage, notes, vclass } =
 
 <Layout title={title} description={description}>
   <article class="article-md">
-    <h1 class="text-3xl font-bold">{title}</h1>
-
+    <h1>{title}</h1>
+    <br />
     <img src={heroImage} alt="hero image" class="w-full my-4" />
     <div class="flex items-center justify-between">
       <FormattedDate date={pubDate} />

@@ -17,7 +17,7 @@ const posts = (await getCollection("blog")).sort(
       posts.map((post, index) => {
         return (
           <article
-            class={`article-md ${
+            class={`summary-article-md ${
               index !== posts.length - 1 && "border-b-2 border-tertiary"
             } grid grid-cols-3 gap-x-6 items-start grid-flow-row`}
           >
