@@ -23,13 +23,13 @@ El potencial gravitatorio es una cantidad escalar y se puede utilizar para calcu
 
 En relación al diagrama de energía del potencial gravitatorio, podemos divisar tres casos interesantes para pensar. El primero de ellos es pensar el potencial y su relación con una energía mecánica mayor a cero.
 
-![Untitled](Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled.png)
+![Untitled](/fisica1q/Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled.png)
 
 En el diagrama podemos ver las siglas $Rt$ que hacen referencia al radio terrestre. Esta funciona como una cota de mínima para los valores que puede adoptar $r$, dado que las distancia entre los cuerpos de estudio no puede ser menor al radio de la tierra.
 
 Si la energía disponible es mayor a cero, entonces se tiene el potencial de alcanzar el infinito sin ningún problema. Es mas, podemos alcanzar el infinito y con energía cinética de sobra.
 
-![Untitled](Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled%201.png)
+![Untitled](/fisica1q/Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled%201.png)
 
 Si por otro lado, la energía disponible es menor a cero, entonces nos encontraríamos con un punto de retorno.
 
@@ -58,7 +58,7 @@ Comentario final, se puede observar como la velocidad de escape no depende del p
 
 La ley de gravitación universal propone que dado dos objetos de masa $m_1, m_2$, ambas percibirán fuerzas de atracción en dirección de la recta que las une, de igual magnitud, pero de sentido contrario.
 
-![Untitled](Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled%202.png)
+![Untitled](/fisica1q/Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled%202.png)
 
 Dicha fuerza será proporcional a sus masa pero inversamente proporcionales a la distancia que las separa.
 
@@ -70,7 +70,7 @@ La constante $G$ o constante de gravitación tiene un valor aproximado de $6,672
 
 En una versión aún más general, la ley se puede representar en tanto la posición relativa de los cuerpos
 
-![Untitled](Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled%203.png)
+![Untitled](/fisica1q/Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled%203.png)
 
 $$
 \vec F_{12} = \frac{Gm_1m_2}{|\vec r_2-\vec r_1|^3} (\vec r_2-\vec r_1) = -\vec F_{21}
@@ -83,7 +83,7 @@ Por nomenclatura, nos referimos a $m_1$ como **masa fuente**, mientras que a $m_
 
 Supongamos que se desea poner en orbita a un satélite de masa $m$. Dicha tarea requiere entre muchas otras cosas, conocer la velocidad necesaria para que el mencionado cuerpo realice un movimiento circular uniforme alrededor de la tierra y a una distancia $r$ del centro del planeta.
 
-![Untitled](Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled%204.png)
+![Untitled](/fisica1q/Gui%CC%81a%207%20-%20Interaccio%CC%81n%20gravitatoria%20b8756f6546c14758bce1a3deed279105/Untitled%204.png)
 
 Para lograr un MCU, es necesario que la fuerza gravitatoria sea igual al producto de la masa por la aceleración centrípeta.
 
