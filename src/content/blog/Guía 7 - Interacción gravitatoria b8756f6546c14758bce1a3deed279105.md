@@ -2,7 +2,7 @@
 title: "Guía 7 - Interacción gravitatoria"
 description: "Se define el potencial gravitatorio como la cantidad de trabajo que se debe realizar para mover una masa puntual desde un punto de referencia a un punto específico en el campo gravitatorio. Este potencial se puede calcular utilizando la ley de gravitación universal de Newton y se puede expresar en términos de la masa de los objetos y la distancia entre ellos."
 pubDate: "June 21 2023"
-heroImage: "https://www.notion.so/images/page-cover/met_william_morris_1875.jpg"
+heroImage: "https://www.notion.so/images/page-cover/rijksmuseum_mignons_1660.jpg"
 notes: "http://materias.df.uba.ar/f1qa2021c1/files/2021/05/Interacci%C3%B3n-Gravitatoria.pdf"
 vclass: "https://youtu.be/y1aW-40fb-8?list=PLNbPNPgqTfs6Ec9d03-1q_dYiNjJ3WNEF,"
 ---
